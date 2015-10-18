@@ -1,2 +1,2 @@
 # TicTacToe-Captcha
-Gamification and Captcha. The captcha tnat doesn't hurt! 
+Gamification and Captcha. The captcha that doesn't hurt! 
