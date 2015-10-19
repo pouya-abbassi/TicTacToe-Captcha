@@ -12,6 +12,7 @@ function showHint(str) {
 	xmlhttp.onreadystatechange = function() {
 		if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
 			document.getElementById("answer").innerHTML = xmlhttp.responseText;
+			$('button').prop('disabled', true);
 		}
 	}
 	xmlhttp.open("GET", "captcha.php?q="+str, true);
