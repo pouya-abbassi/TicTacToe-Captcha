@@ -32,3 +32,4 @@
 	<p id="answer"></p>
 </body>
 </html>
+<br><button id='retry' type='button' style='width:auto; display:none;' onclick="$('button').prop('disabled', false);">retry</button>
