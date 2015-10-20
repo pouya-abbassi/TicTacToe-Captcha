@@ -2,4 +2,5 @@
 Gamification and Captcha. The captcha that doesn't hurt! 
 
 Just a fun project from [PouyaCode.net](http://pouyacode.net/).
-*This project is **not** compeleted yed and can't used in environment area.*
+
+'This project is **not** compeleted yed and can't used in environment area.'
