@@ -10,3 +10,13 @@ button{
 	width: 32px;
 	height: 32px;
 }
+#retry{
+	display: none;
+	width: auto;
+}
+#go{
+	display: none;
+}
+#continue {
+	width: auto;
+}

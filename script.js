@@ -17,6 +17,9 @@ function ajaxo(str) {
 			if (xmlhttp.responseText == "Wrong answer.") {	// if serverside ajax returns "wrong answer"
 				$('#retry').show();	// the retry button will be visible
 				$('#retry').prop('disabled', false);	//the retry button will be enabled and ready to press
+			}else{
+				$('#go').show();	// the retry button will be visible
+				$('#continue').prop('disabled', false);	//the retry button will be enabled and ready to press
 			};
 		}
 	}

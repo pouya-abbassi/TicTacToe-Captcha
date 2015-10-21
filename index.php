@@ -16,8 +16,9 @@
 
 	<?php require 'db.php'; ?>
 
-	<p id="answer"></p>	<!-- the resault of ajax will be displayed here -->
+	<div id="answer"></div>	<!-- the resault of ajax will be displayed here -->
 	<br>
-	<button id='retry' type='button' style='width:auto; display:none;' onclick="$('button').prop('disabled', false);">retry</button>	<!-- retry button. hidden by default. inline js script to make buttons reusable. -->
+	<a href="http://pouyacode.net" id='go'><button type='button' id='continue'>continue</button></a>	<!-- The continue button -->
+	<button id='retry' type='button' onclick="$('button').prop('disabled', false);">retry</button>	<!-- retry button. hidden by default. inline js script to make buttons reusable. -->
 </body>
 </html>
